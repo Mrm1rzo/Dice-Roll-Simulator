@@ -1,0 +1,87 @@
+:root {
+  --color: antiquewhite;
+  --body: aliceblue;
+  --background: slateblue;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  gap: 20px;
+  display: flex;
+  padding: 100px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  background: var(--body);
+
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+ul li {
+  list-style: none;
+}
+
+.roll-simulator {
+  width: 100%;
+  max-width: 500px;
+
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+}
+.img {
+}
+
+.button {
+  border: 0;
+  width: 50%;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: var(--color);
+  background: var(--background);
+
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(159, 159, 159, 0.3);
+}
+
+.roll-boxess {
+  gap: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.roll-box {
+  width: 100%;
+  display: flex;
+  max-width: 500px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.roll-box__title {
+}
+
+.roll-box__count {
+}
