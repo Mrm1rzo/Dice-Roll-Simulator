@@ -2,9 +2,10 @@ Dice Roll Simulator loyihasiga xush kelibsiz. Loyihaning yakuniy versiyasida ekr
 
 Technologies used:
 
-Html
-Css
-JavaScript
+1. Html
+2. Css
+3. JavaScript
+
 Developer: https://t.me/m1rzo_dev
 
 Date of manufacture: 25.08.24
